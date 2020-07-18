@@ -1,0 +1,4 @@
+23:35:24.937 [main] INFO  resources.base - non restricted user
+23:35:29.279 [main] INFO  resources.base - driver is initialized
+23:35:33.299 [main] INFO  resources.base - navigated to the url
+23:35:33.384 [main] INFO  resources.base - successfully validated the text

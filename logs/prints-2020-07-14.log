@@ -1,0 +1,8 @@
+23:12:06.293 [main] INFO  resources.base - driver is initialized
+23:12:11.643 [main] INFO  resources.base - navigated to the url
+23:12:12.107 [main] INFO  resources.base - navigation bar is displayed
+23:12:19.394 [main] INFO  resources.base - restricted user
+23:12:25.836 [main] INFO  resources.base - non restricted user
+23:12:25.925 [main] INFO  resources.base - successfully validated the text
+23:35:10.179 [main] INFO  resources.base - navigation bar is displayed
+23:35:21.688 [main] INFO  resources.base - restricted user

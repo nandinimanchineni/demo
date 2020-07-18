@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-14T21:35:02Z" name="Suite" finished-at="2020-07-14T21:35:37Z" duration-ms="35654">
+    <groups>
+    </groups>
+    <test started-at="2020-07-14T21:35:02Z" name="Test" finished-at="2020-07-14T21:35:10Z" duration-ms="7997">
+      <class name="endtoend.learning.validatenavigatebar">
+        <test-method is-config="true" signature="initial()[pri:0, instance:endtoend.learning.validatenavigatebar@5170bcf4]" started-at="2020-07-14T23:35:02Z" name="initial" finished-at="2020-07-14T23:35:10Z" duration-ms="7751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="basepagenavigation()[pri:0, instance:endtoend.learning.validatenavigatebar@5170bcf4]" started-at="2020-07-14T23:35:10Z" name="basepagenavigation" finished-at="2020-07-14T23:35:10Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:endtoend.learning.validatenavigatebar@5170bcf4]" started-at="2020-07-14T23:35:10Z" name="teardown" finished-at="2020-07-14T23:35:10Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- endtoend.learning.validatenavigatebar -->
+    </test> <!-- Test -->
+    <test started-at="2020-07-14T21:35:10Z" name="Test1" finished-at="2020-07-14T21:35:10Z" duration-ms="0">
+    </test> <!-- Test1 -->
+    <test started-at="2020-07-14T21:35:10Z" name="Test2" finished-at="2020-07-14T21:35:27Z" duration-ms="16758">
+      <class name="endtoend.learning.homepage">
+        <test-method is-config="true" signature="initial()[pri:0, instance:endtoend.learning.homepage@4cf8b2dc]" started-at="2020-07-14T23:35:10Z" name="initial" finished-at="2020-07-14T23:35:17Z" duration-ms="7027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:endtoend.learning.homepage@4cf8b2dc]" started-at="2020-07-14T23:35:17Z" name="basepagenavigation" data-provider="getdata" finished-at="2020-07-14T23:35:21Z" duration-ms="4324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:endtoend.learning.homepage@4cf8b2dc]" started-at="2020-07-14T23:35:21Z" name="basepagenavigation" data-provider="getdata" finished-at="2020-07-14T23:35:24Z" duration-ms="3263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:endtoend.learning.homepage@4cf8b2dc]" started-at="2020-07-14T23:35:24Z" name="teardown" finished-at="2020-07-14T23:35:27Z" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- endtoend.learning.homepage -->
+    </test> <!-- Test2 -->
+    <test started-at="2020-07-14T21:35:27Z" name="Test3" finished-at="2020-07-14T21:35:37Z" duration-ms="10841">
+      <class name="endtoend.learning.validatetitle">
+        <test-method is-config="true" signature="initial()[pri:0, instance:endtoend.learning.validatetitle@c2db68f]" started-at="2020-07-14T23:35:27Z" name="initial" finished-at="2020-07-14T23:35:33Z" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="basepagenavigation()[pri:0, instance:endtoend.learning.validatetitle@c2db68f]" started-at="2020-07-14T23:35:33Z" name="basepagenavigation" finished-at="2020-07-14T23:35:33Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:endtoend.learning.validatetitle@c2db68f]" started-at="2020-07-14T23:35:33Z" name="teardown" finished-at="2020-07-14T23:35:37Z" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- endtoend.learning.validatetitle -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
